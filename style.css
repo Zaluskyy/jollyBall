@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'New Tegomin', serif;
+    overflow: hidden;
+}
+
+canvas {
+    background-color: black;
+}
+
+div {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    font-size: 45px;
+}
+
+.hearts {
+    left: 100px;
+}
+
+.score {
+    right: 100px;
+}
+
+.end {
+    display: none;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    /* font-size: 80px; */
+    text-align: center;
+}
+
+.end button {
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.end button:hover {
+    border-color: yellow;
+}
